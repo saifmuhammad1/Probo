@@ -1,12 +1,12 @@
 import Card, { CardBody, CardFooter } from "../card";
 import { products } from "../../assets/dummyObjects";
 
-type Product = {
-  id: number | string;
-  name: string;
-  price: number;
-  image: string;
-};
+// type Product = {
+//   id: number | string;
+//   name: string;
+//   price: number;
+//   image: string;
+// };
 
 const ProductScroller = () => {
   return (

@@ -6,7 +6,7 @@ import { AppRouter } from "./App";
 
 createRoot(document.getElementById("root")!).render(
   <AppConfigProvider>
-    <BrowserRouter>
+    <BrowserRouter basename="/Probo/">
       <AppRouter />
     </BrowserRouter>
   </AppConfigProvider>,

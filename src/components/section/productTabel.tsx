@@ -30,7 +30,7 @@ export const ProductTable = () => {
         {
           key: "isAction",
           label: "Action",
-          render: (_: any, row: any) => (
+          render: (_: any) => (
             <div className="flex gap-2">
               <Button label="Edit" variant="primary" />
               <Button label="Show" variant="secondary" />

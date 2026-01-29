@@ -1,8 +1,6 @@
 import { Link } from "react-router-dom";
-import { useAppConfig } from "../../context/appConfigContext";
 
 const Navbar = () => {
-  const { theme } = useAppConfig();
   return (
     <nav className="flex justify-between px-2 py-2 align-middle text-2xl text-black">
       <span className="text-3xl text-orange-500">Probo</span>
